@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  nodehttps:
+    build: .
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - G:/prjs/node/https-server:/srv/app
